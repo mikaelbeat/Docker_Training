@@ -11,3 +11,4 @@ docker exec -it <ID> <COMMANDS> sh(Full terminal access to container)
 ctrl + D / exit -> Exit container
 
 docker build . -> When run in image folder, it builds image
+-t <DOCKER ID> / <PROJECT NAME> : latest (version) .
