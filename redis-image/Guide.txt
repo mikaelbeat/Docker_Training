@@ -1,0 +1,13 @@
+
+docker ps -> Lists all active containers
+docker ps --all -> List all containers which have been active
+docker start -a <ID> -> Starts container which have been active before 
+docker system prune -> Delete stopped containers, cache and images
+docker logs <ID> -> Gets logs from run container
+docker stop <ID> -> Shutdowns given container, after 10s forcefully kills it
+docker exec -it(Allow to provide commandes to container) <ID> <COMMANDS>
+docker exec -it <ID> <COMMANDS> sh(Full terminal access to container)
+
+ctrl + D / exit -> Exit container
+
+docker build . -> When run in image folder, it builds image
