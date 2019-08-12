@@ -7,6 +7,8 @@ docker logs <ID> -> Gets logs from run container
 docker stop <ID> -> Shutdowns given container, after 10s forcefully kills it
 docker exec -it(Allow to provide commandes to container) <ID> <COMMANDS>
 docker exec -it <ID> <COMMANDS> sh(Full terminal access to container)
+docker run -p 8080:8080 mikaelbeat/simpleweb -> Starts container and routes local port 8080 to containers port 8080
+docker run -it mikaelbeat/simpleweb sh -> Opens shell in given container
 
 ctrl + D / exit -> Exit container
 
