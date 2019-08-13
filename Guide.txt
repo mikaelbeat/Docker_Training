@@ -13,6 +13,7 @@ docker run -it mikaelbeat/simpleweb sh -> Opens shell in given container
 ctrl + D / exit -> Exit container
 
 docker build . -> When run in image folder, it builds image
+docker build -f <FILE> . -> Build specified file in folder. Meaning of -f is that specific file name is given.
 -t <DOCKER ID> / <PROJECT NAME> : latest (version) .
 
 docker-compose up -> Starts container
