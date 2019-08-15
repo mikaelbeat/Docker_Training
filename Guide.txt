@@ -21,3 +21,5 @@ docker-compose up --build -> Starts container and builds image
 docker-compose up -d -> Starts container in background
 docker-compose down -> Stops all containers
 docker-compose ps -> Lists all running containers in folder where command is run
+
+docker exec -it <ID> npm run test -> Runs tests in given container
