@@ -3,7 +3,9 @@ services:
   - docker
 
 before_install:
+  cd frontend
   - docker build -t mikaelbeat/docker_training -f Dockerfile.dev .
 
 script:
+cd frontend
   - docker run -e CI=true mikaelbeat/docker_training npm run test
